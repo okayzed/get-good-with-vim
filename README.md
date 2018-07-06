@@ -62,7 +62,7 @@ an immediate feedback loop - every second spent waiting is a second lost
 * learn how to filter visual selection through external programs with !
 * learn to use :r! for reading external commands in
 * setup your vim config again
-* use :<number> to jump to line
+* use \<number\>G to jump to line (can also use :\<number\>)
 * use xp to swap characters
 * learn to use * and + registers (or use `!xsel -i` and `!xsel -o`) for system clipboard
 * learn to navigate / create folds with zc, zo, etc
@@ -71,6 +71,7 @@ an immediate feedback loop - every second spent waiting is a second lost
 
 ### advanced
 
+* learn how to use and manage marks
 * learn how to use visual blocks (ctrl-v) and editing multiple lines with I
 * learn how to record and apply macros (q<register> and @<register> to replay them)
 * learn about :registers and "
