@@ -13,7 +13,7 @@ you should always be in normal mode (for fast editing and browsing) unless you
 are writing text.
 
 your fingers should move as little as possible and stay anchored to the homerow
-to save time. the mouse is the productivity killer.
+(f and j keys specifically) to save time. the mouse is the productivity killer.
 
 learn one or two new things a week, try to incorporate them into daily practice
 
@@ -64,22 +64,27 @@ an immediate feedback loop - every second spent waiting is a second lost
 * setup your vim config again
 * use :<number> to jump to line
 * use xp to swap characters
+* learn to use * and + registers (or use `!xsel -i` and `!xsel -o`) for system clipboard
+* learn to navigate / create folds with zc, zo, etc
+* use :terminal instead of tmux
+* learn to use ctrl-v to insert non-printing characters like <CR>
 
 ### advanced
 
 * learn how to use visual blocks (ctrl-v) and editing multiple lines with I
 * learn how to record and apply macros (q<register> and @<register> to replay them)
 * learn about :registers and "
+* learn about special registers: "%, "w, "", etc
 * learn about :later and :earlier
 * learn about ctrl-r in insert mode
 * learn about ctrl-o in insert mode
 * learn what every key does in normal mode
 * play some vimgolf
-* learn more g commands like g^g, gp, gv, gi, gu, gU, gq
+* learn more g commands like gd, gp, gv, gi, gu, gU, gq, g^g
 * learn how to pipe visual selection to xargs
 * learn what all shift numbers (!@#$%^&*()_+) do
 * learn magic and advanced :s commands
-* learn to use :g command
+* learn to use :g command (and :g! or :v command)
 * delete everything from your vim config except whats necessary
 * learn how to jump to tag definitions with ctrl-] and use :ts
 * write your own vimscript plugins
@@ -89,4 +94,11 @@ an immediate feedback loop - every second spent waiting is a second lost
 ### plugins
 
 * get a plugin manager, install some plugins
-* useful plugins: surround.vim, syntastic, nerdtree, bufexplorer, tagbar, ctrl-p
+* useful plugins
+  * surround.vim
+  * syntastic
+  * nerdtree
+  * bufexplorer
+  * tagbar
+  * ctrl-p
+  * auto-tags (auto generate tags files for you)
