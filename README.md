@@ -33,7 +33,7 @@ an immediate feedback loop - every second spent waiting is a second lost
 * learn to use jkhl keys. disable the arrow keys, even in insert mode
 * learn how to delete (d), change (c) and yank (y) line
 * learn how to get into insert mode: oOiIaA
-* learn motion commands: wbe$_0
+* learn motion commands: wWbBeE$_0
 * map capslock to ctrl
 * learn character motion commands: fFtT
 * learn undo and redo: u and ctrl-r
@@ -46,16 +46,24 @@ an immediate feedback loop - every second spent waiting is a second lost
 * learn how to use jumplist with ctrl-o and ctrl-i. use m' to place a new mark in jumplist
 * learn to use :s and :%s command with regexes
 * learn text objects: ci(, daw, ya', etc
+* learn buffer management: :bn, :bp, :bd
 * learn to use the verb+object vocabulary of vim (see grokking vi SO answer)
 * use ctrl-[ instead of escape
 * use larger motions: {}, [[, ]]
 * learn about window management, including :split, :vsplit, ctrl-w and so on
 * install some plugins. uninstall some plugins
 * use . to repeat yourself (when going into edit mode, do as much as possible in one go, then use . to repeat it)
+* use character motion with , and ; for repeating
+* learn to use ctrl-x ctrl-f for file completion
+* learn to use ctrl-n and ctrl-p for keyword completion
 * learn page movement: H, M, L, ctrl-u, ctrl-d, ctrl-f, ctrl-b
 * learn useful g commands, like gf and gg and G
 * learn how to use linewise visual mode (V)
 * learn how to filter visual selection through external programs with !
+* learn to use :r! for reading external commands in
+* setup your vim config again
+* use :<number> to jump to line
+* use xp to swap characters
 
 ### advanced
 
@@ -67,15 +75,18 @@ an immediate feedback loop - every second spent waiting is a second lost
 * learn about ctrl-o in insert mode
 * learn what every key does in normal mode
 * play some vimgolf
-* learn more g commands like g^g
+* learn more g commands like g^g, gp, gv, gi, gu, gU, gq
 * learn how to pipe visual selection to xargs
 * learn what all shift numbers (!@#$%^&*()_+) do
 * learn magic and advanced :s commands
 * learn to use :g command
+* delete everything from your vim config except whats necessary
+* learn how to jump to tag definitions with ctrl-] and use :ts
 * write your own vimscript plugins
-
+* learn to use quickfix window (:cw) with :make or other output
+* learn to use :bufdo for executing commands on multiple windows
 
 ### plugins
 
 * get a plugin manager, install some plugins
-* useful plugins: surround.vim, syntastic, nerdtree, bufexplorer, tagbar
+* useful plugins: surround.vim, syntastic, nerdtree, bufexplorer, tagbar, ctrl-p
