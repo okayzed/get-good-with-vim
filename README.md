@@ -67,7 +67,7 @@ an immediate feedback loop - every second spent waiting is a second lost
 * learn to use * and + registers (or use `!xsel -i` and `!xsel -o`) for system clipboard
 * learn to navigate / create folds with zc, zo, etc
 * use :terminal instead of tmux
-* learn to use ctrl-v to insert non-printing characters like <CR>
+* learn to use ctrl-v to insert non-printing characters like \<CR\> or \<Esc\>
 
 ### advanced
 
