@@ -57,7 +57,7 @@ be critical of yourself, always look for ways to improve
 * learn to use :s and :%s command with regexes
 * learn text objects: ci(, daw, ya', etc
 * learn buffer management: :bn, :bp, :bd
-* learn to use the verb+object vocabulary of vim (see grokking vi SO answer)
+* learn to use the verb+object vocabulary of vim ([see grokking vi SO answer](https://gist.github.com/nifl/1178878))
 * use ctrl-[ instead of escape
 * use larger motions: {}, [[, ]]
 * learn about the delete / yank registers
