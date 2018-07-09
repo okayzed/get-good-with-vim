@@ -10,9 +10,13 @@ please contribute / make suggestions!
 
 ### modal editing
 
+unlike most editors, vim is a modal editor - that means that there are several
+"modes" that vim is in. the standard list is `normal`, `insert`, `visual`,
+`command` and `ex`.
+
 most of our time is spent browsing and editing code, not writing it. therefore
 you should always be in normal mode (for fast editing and browsing) unless you
-are writing text.
+are writing text, in which case you are in `insert` mode.
 
 ### on speed
 
@@ -53,7 +57,6 @@ be critical of yourself, always look for ways to improve
 
 ### mediums
 
-* learn how to use jumplist with ctrl-o and ctrl-i. use m' to place a new mark in jumplist
 * learn to use :s and :%s command with regexes
 * learn text objects: ci(, daw, ya', etc
 * learn buffer management: :bn, :bp, :bd
@@ -69,6 +72,7 @@ be critical of yourself, always look for ways to improve
 * learn to use ctrl-x ctrl-f for file completion
 * get a plugin manager, install some plugins
 * learn to use ctrl-n and ctrl-p for keyword completion
+* learn how to use jumplist with ctrl-o and ctrl-i. use m' to place a new mark in jumplist
 * learn page movement: H, M, L, ctrl-u, ctrl-d, ctrl-f, ctrl-b
 * learn useful g commands, like gf and gg and G
 * learn how to use linewise visual mode (V)
@@ -84,7 +88,6 @@ be critical of yourself, always look for ways to improve
 
 ### advanced
 
-* learn how to use and manage marks
 * learn how to use visual blocks (ctrl-v) and editing multiple lines with I
 * learn how to record and apply macros (q<register> and @<register> to replay them)
 * learn about special registers: "%, "w, "", etc
@@ -94,11 +97,12 @@ be critical of yourself, always look for ways to improve
 * learn to use ctrl-x ctrl-l for line completion
 * learn what every key does in normal mode
 * play some vimgolf
-* learn more g commands like gd, gp, gv, gi, gu, gU, gq, g^g
+* learn more g commands like gd, gp, gv, gi, gu, gU, gq, g^g, g_
 * learn how to pipe visual selection to xargs
 * learn what all shift numbers (!@#$%^&*()_+) do
 * learn magic and advanced :s commands
 * learn how to repeat :s commands with &
+* learn how to use and manage marks
 * learn to use :g command (and :g! or :v command)
 * delete everything from your vim config except whats necessary
 * learn how to jump to tag definitions with ctrl-] and use :ts
@@ -106,7 +110,7 @@ be critical of yourself, always look for ways to improve
 * learn to use quickfix window (:cw) with :make or other output
 * learn to use :bufdo for executing commands on multiple windows
 
-### useful plugins
+## useful plugins
 
 * surround.vim
 * nerdtree
@@ -115,3 +119,9 @@ be critical of yourself, always look for ways to improve
 * ctrl-p
 * auto-tags (auto generate tags files for you)
 * syntastic
+
+
+## useful vimrcs
+
+* [liorrozen's minimal vimrc](https://gist.github.com/liorrozen/461db13cafe7f960c5fc)
+* [okay's vimrc](https://github.com/okayzed/dotvim/blob/master/rc/vimrc)
