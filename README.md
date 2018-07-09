@@ -1,6 +1,5 @@
 # vim--
 
-
 this repo is going to be where i place random vim tips and philosophies, hoping
 to one day build a useful answer when people ask me how to get good at vim.
 
@@ -15,7 +14,7 @@ unlike most editors, vim is a modal editor - that means that there are several
 `command` and `ex`.
 
 most of our time is spent browsing and editing code, not writing it. therefore
-you should always be in normal mode (for fast editing and browsing) unless you
+you should always be in `normal` mode (for fast editing and browsing) unless you
 are writing text, in which case you are in `insert` mode.
 
 ### on speed
@@ -51,6 +50,7 @@ be critical of yourself, always look for ways to improve
 * map capslock to ctrl
 * learn character motion commands: fFtT
 * learn undo and redo: u and ctrl-r
+* learn how to indent/unindent with \< and \>
 * learn how to control your pastes with [p and ]p - use J to join the next line to current
 * setup your vim config
 * learn to search with /
@@ -63,11 +63,13 @@ be critical of yourself, always look for ways to improve
 * learn to use the verb+object vocabulary of vim ([see grokking vi SO answer](https://gist.github.com/nifl/1178878))
 * use ctrl-[ instead of escape
 * use larger motions: {}, [[, ]]
+* use ctrl-a and ctrl-x in normal mode to increment numbers on the line
 * learn about the delete / yank registers
 * learn about :registers and "
 * learn about window management, including :split, :vsplit, ctrl-w and so on
 * install some plugins. uninstall some plugins
 * use . to repeat yourself (when going into edit mode, do as much as possible in one go, then use . to repeat it)
+* learn how the numbered registers work (history of recent yanks and deletes)
 * use character motion with , and ; for repeating
 * learn to use ctrl-x ctrl-f for file completion
 * get a plugin manager, install some plugins
@@ -77,6 +79,8 @@ be critical of yourself, always look for ways to improve
 * learn useful g commands, like gf and gg and G
 * learn how to use linewise visual mode (V)
 * learn how to filter visual selection through external programs with !
+* learn how to wrap lines using gq in visual mode
+* learn to unindent / indent in insert mode (ctrl-d and ctrl-t)
 * learn to use :r! for reading external commands in
 * setup your vim config again
 * use \<number\>G to jump to line (can also use :\<number\>)
@@ -91,13 +95,14 @@ be critical of yourself, always look for ways to improve
 * learn how to use visual blocks (ctrl-v) and editing multiple lines with I
 * learn how to record and apply macros (q<register> and @<register> to replay them)
 * learn about special registers: "%, "w, "", etc
+* learn about "= register (for expression register)
 * learn about :later and :earlier
 * learn about ctrl-r in insert mode
 * learn about ctrl-o in insert mode
 * learn to use ctrl-x ctrl-l for line completion
 * learn what every key does in normal mode
 * play some vimgolf
-* learn more g commands like gd, gp, gv, gi, gu, gU, gq, g^g, g_
+* learn more g commands like gd, gp, gv, gi, gu, gU, g^g, g_
 * learn how to pipe visual selection to xargs
 * learn what all shift numbers (!@#$%^&*()_+) do
 * learn magic and advanced :s commands
@@ -110,7 +115,27 @@ be critical of yourself, always look for ways to improve
 * learn to use quickfix window (:cw) with :make or other output
 * learn to use :bufdo for executing commands on multiple windows
 
-## useful plugins
+### movement
+
+the following are common movement commands ordered by how much they move the
+cursor in the document
+
+* hjkl - move spatially
+* eEwWbB - move by word
+* fFtT - move by character on same line
+* 0_^$ - move to beginning and end of line
+* {} - move by whitespace
+* ctrl-u and ctrl-d - move by half a page
+* HML: position cursor at top, middle or bottom of page
+* ctrl-f and ctrl-b - move a full page
+* \* and # - search for current word under cursor
+* / and ? - initiate a search
+* \<number\>G - jump to line number
+* gg and G: jump to top and bottom of document
+
+## resources
+
+### useful plugins
 
 * surround.vim
 * nerdtree
@@ -121,7 +146,13 @@ be critical of yourself, always look for ways to improve
 * syntastic
 
 
-## useful vimrcs
+### useful vimrcs
 
 * [liorrozen's minimal vimrc](https://gist.github.com/liorrozen/461db13cafe7f960c5fc)
 * [okay's vimrc](https://github.com/okayzed/dotvim/blob/master/rc/vimrc)
+
+
+### useful links
+
+* [grokking vi](https://gist.github.com/nifl/1178878)
+* [why oh why use vim?](http://www.viemu.com/a-why-vi-vim.html)
