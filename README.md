@@ -135,6 +135,8 @@ cursor in the document
 
 ## resources
 
+![vim cheat sheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
+
 ### useful plugins
 
 * surround.vim
