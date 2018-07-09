@@ -37,6 +37,9 @@ learn one or two new things a week, try to incorporate them into daily practice.
 
 be critical of yourself, always look for ways to improve
 
+use the first few weeks or months of a job to improve your tools and workflow,
+since your productivity is not expected to be high, anyway
+
 ## things to learn
 
 ### basics
@@ -155,7 +158,7 @@ cursor in the document
 * [tmc's vimrc](https://github.com/tmc/dotfiles/blob/master/.vimrc)
 
 
-### useful links
+### other people on vim
 
 * [grokking vi](https://gist.github.com/nifl/1178878)
 * [why oh why use vim?](http://www.viemu.com/a-why-vi-vim.html)
