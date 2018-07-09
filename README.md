@@ -150,6 +150,7 @@ cursor in the document
 
 * [liorrozen's minimal vimrc](https://gist.github.com/liorrozen/461db13cafe7f960c5fc)
 * [okay's vimrc](https://github.com/okayzed/dotvim/blob/master/rc/vimrc)
+* [tmc's vimrc](https://github.com/tmc/dotfiles/blob/master/.vimrc)
 
 
 ### useful links
