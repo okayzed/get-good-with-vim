@@ -19,14 +19,16 @@ are writing text, in which case you are in `insert` mode.
 
 ### on speed
 
-your fingers should move as little as possible and stay anchored to the homerow
-(f and j keys specifically) to save time. the mouse is the productivity killer.
-
 the bottleneck in your editing should be the speed of your brain, followed by
 the speed of your typing.
 
+your fingers should move as little as possible and stay anchored to the homerow
+(f and j keys specifically) to save time. the mouse is the productivity killer.
+
 get your programming workflow to have an immediate feedback loop - every second
-spent waiting is a second lost
+spent waiting is a second lost. use something like
+[entr](http://www.entrproject.org/) to automatically re-run commands when your
+code changes
 
 use a terminal window manager like tmux so there is no need for a mouse to move
 between running processes
