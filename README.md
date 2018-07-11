@@ -1,4 +1,4 @@
-# vim--
+# get good with vim
 
 this repo is going to be where i place random vim tips and philosophies, hoping
 to one day build a useful answer when people ask me how to get good at vim.
