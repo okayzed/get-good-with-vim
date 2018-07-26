@@ -122,21 +122,7 @@ since your productivity is not expected to be high, anyway
 
 ### movement
 
-the following are common movement commands ordered by how much they move the
-cursor in the document
-
-* hjkl - move spatially
-* eEwWbB - move by word
-* fFtT - move by character on same line
-* 0_^$ - move to beginning and end of line
-* {} - move by whitespace
-* ctrl-u and ctrl-d - move by half a page
-* HML: position cursor at top, middle or bottom of page
-* ctrl-f and ctrl-b - move a full page
-* \* and # - search for current word under cursor
-* / and ? - initiate a search
-* \<number\>G - jump to line number
-* gg and G: jump to top and bottom of document
+![vim movement background](https://raw.githubusercontent.com/LevelbossMike/vim_shortcut_wallpaper/master/vim-shortcuts_2560x1600.png)
 
 ## resources
 
@@ -162,5 +148,6 @@ cursor in the document
 
 ### other people on vim
 
+* [vim-galore](https://github.com/mhinz/vim-galore)
 * [grokking vi](https://gist.github.com/nifl/1178878)
 * [why oh why use vim?](http://www.viemu.com/a-why-vi-vim.html)
