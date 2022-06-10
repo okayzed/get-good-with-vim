@@ -27,7 +27,7 @@ your fingers should move as little as possible and stay anchored to the homerow
 
 get your programming workflow to have an immediate feedback loop - every second
 spent waiting is a second lost. use something like
-[entr](http://www.entrproject.org/) to automatically re-run commands when your
+[entr](https://eradman.com/entrproject/) to automatically re-run commands when your
 code changes
 
 use a terminal window manager like tmux so there is no need for a mouse to move
